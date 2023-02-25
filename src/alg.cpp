@@ -25,8 +25,7 @@ uint64_t nPrime(uint64_t n) {
         } else if (i == n) {
             return x;
         }
-    }
-        
+    }    
 }
 
 uint64_t nextPrime(uint64_t value) {
@@ -39,8 +38,7 @@ uint64_t nextPrime(uint64_t value) {
 uint64_t sumPrime(uint64_t hbound) {
     int sum = 0;
     for (int x = 2; x < hbound; x++) {
-        if (checkPrime(x))
-        {
+        if (checkPrime(x)) {
             sum+=x;
         }
     }
