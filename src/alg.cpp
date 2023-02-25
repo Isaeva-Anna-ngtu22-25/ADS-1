@@ -20,9 +20,10 @@ uint64_t nPrime(uint64_t n) {
     uint64_t nP = 0;
     uint64_t nom = 0;
     for (uint64_t i = 2; nom < n; i++)
-        if (checkPrime(i))
+        if (checkPrime(i)){
             nP = i;
             nom++;
+        }
      return nP;
 }
 
